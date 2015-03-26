@@ -50,6 +50,8 @@ Enjoy developing your Symfony based project :)
 
 ## Performance Optimization
 
+- Consider using [Vagrant Cachier](http://fgrehm.viewdocs.io/vagrant-cachier/usage) plugin
+`vagrant plugin install vagrant-cachier`
 - Consider using NFS or Samba for the shared folder.
 Eg. `config.vm.synced_folder ..., type: "nfs", mount_options: ['rw', 'vers=3', 'tcp', 'fsc']`
 - Consider moving Symfony cache and logs to VM's folder
