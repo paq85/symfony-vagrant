@@ -26,9 +26,9 @@ Validate Apache and PHP works properly by opening [PHP Info](http://symfony.dev/
 
 Log in to VM and run
 
-    cd /vagrant
+    cd /vagrant/projects
     symfony new symfony_project
-    ln -s /vagrant/symfony_project/web /vagrant/web/symfony_project
+    ln -s /vagrant/projects/symfony_project/web /vagrant/web/symfony_project
     
 Newly created symfony project is now in `symfony_project` folder.
 It should be available via web browser at [Symfony App Example](http://symfony.dev/symfony_project/app/example)
